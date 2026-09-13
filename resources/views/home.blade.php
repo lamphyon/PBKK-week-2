@@ -15,6 +15,7 @@
             <a href="/about" class="text-gray-400 hover:text-gray-200 transition">Department Profile</a>
             <a href="/project-idea" class="text-gray-400 hover:text-gray-200 transition">Project Plan</a>
             <a href="/hitung" class="text-gray-400 hover:text-gray-200 transition">Calculator</a>
+            <a href="/agent" class="text-gray-400 hover:text-gray-200 transition">Agentic AI</a>
         </div>
     </nav>
 
@@ -38,6 +39,11 @@
                 <div class="p-4 rounded-xl border border-gray-800/60">
                     <p class="text-gray-400 text-sm leading-relaxed">This is the homepage of the ITS Student Profile Static Information System.</p>
                 </div>
+
+                <a href="/dashboard/mahasiswa/5025241092"
+                    class="inline-block mt-4 px-6 py-3 bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-bold rounded-xl transition"> 
+                    Menuju Profil Abdullah Sultan Barizy
+                </a>
             </div>
 
             <!-- Right Side: Decorators -->

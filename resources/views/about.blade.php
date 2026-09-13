@@ -114,6 +114,7 @@ $members = [
             <a href="/about" class="text-emerald-400 hover:text-emerald-300 transition">Department Profile</a>
             <a href="/project-idea" class="text-gray-400 hover:text-gray-200 transition">Project Plan</a>
             <a href="/hitung" class="text-gray-400 hover:text-gray-200 transition">Calculator</a>
+            <a href="/agent" class="text-gray-400 hover:text-gray-200 transition">Agentic AI</a>
         </div>
     </nav>
 

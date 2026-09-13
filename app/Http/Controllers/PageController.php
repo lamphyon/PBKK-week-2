@@ -10,11 +10,13 @@ class PageController extends Controller
 
     public function about() { return view('about'); }
 
-    // Rute: /agent/{tema?}
-    // Parameter diberi nilai default 'General Assistant Agent' jika kosong
-    public function agent($tema = 'General Assistant Agent')
-    {
-        // Mengirimkan variabel $tema ke tampilan agent.blade.php
+    public function agent($tema = null) {
+        if ($tema === null) {
+            return view('agentdefault', [
+                'tema' => 'General Assistant Agent'
+            ]);
+        }
+
         return view('agent', compact('tema'));
     }
 
