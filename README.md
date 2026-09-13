@@ -16,9 +16,7 @@ composer run dev
 
 Tugas ini merupakan lanjutan dari **PBKK Tugas 1** dengan beberapa perbaikan dan penambahan fitur.
 
-### 1. Perbaikan Routing
-
-Routing pada Week 2 diperbaiki dan dirapikan di `web.php`.
+### 1. Perbaikan
 
 Beberapa perubahan yang dilakukan:
 
