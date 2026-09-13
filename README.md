@@ -33,7 +33,7 @@ Beberapa perubahan yang dilakukan:
 
 #### Halaman `/home`
 
-<img width="1917" height="965" alt="Screenshot 2026-09-13 222638" src="https://github.com/user-attachments/assets/768d894d-a1ff-45d1-9584-9ad1b4daabc8" />
+<img width="1917" height="960" alt="Screenshot 2026-09-13 222657" src="https://github.com/user-attachments/assets/1fc5eb64-7b64-41ec-9f65-96adbfd00ae3" />
 
 #### Halaman `/agent`
 
