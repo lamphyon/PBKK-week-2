@@ -27,6 +27,6 @@ Route::prefix('dashboard')->name('dashboard.')->group(function(){
 });
 
 Route::fallback(function () {
-    return view('errors.404');
+    return response()->view('404', [], 404);
 });
 
