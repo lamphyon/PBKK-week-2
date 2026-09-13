@@ -29,7 +29,7 @@ Beberapa perubahan yang dilakukan:
 * `/dashboard/mahasiswa/{nrp}` digunakan untuk menampilkan profil mahasiswa berdasarkan NRP.
 * Route mahasiswa dilengkapi dengan **regex constraint** untuk memenuhi **Challenge 1**.
 * Ditambahkan **fallback route** dan halaman error **404** untuk memenuhi **Challenge 3**.
-* Kalkulator pada tugas sebelumnya diubah dari kalkulator aritmatika menjadi **kalkulator IP**.
+* Kalkulator pada tugas sebelumnya diubah dari kalkulator aritmatika menjadi **kalkulator IP** untuk memenuhi **Challenge 2**
 
 ### 2. Screenshot
 
