@@ -51,11 +51,12 @@ Beberapa perubahan yang dilakukan:
 
 #### Halaman Error 404
 
+<img width="1917" height="957" alt="image" src="https://github.com/user-attachments/assets/758927c6-f718-49d1-a90f-49fcfc7e668c" />
 
 #### Kalkulator IP
 
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/dc597875-505f-4d33-8d44-62487c7c572d" />
+
 <img width="1917" height="970" alt="Screenshot 2026-09-13 222618" src="https://github.com/user-attachments/assets/4459c4f8-e83f-4db3-bf4f-edd7e361670f" />
-
-
 
 ![Screenshot Kalkulator IP](screenshots/kalkulator-ip.png)
