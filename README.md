@@ -1,8 +1,10 @@
-﻿# PBKK-Tugas-2
+# PBKK-Tugas-2
 
 ## Local Setup
 
-```
+Jalankan perintah berikut untuk menjalankan project secara lokal:
+
+```bash
 cd PBKK-Tugas-2
 composer install
 npm install
@@ -10,20 +12,50 @@ php artisan migrate
 composer run dev
 ```
 
-# Feature
+## Features
 
-ini adalah lanjutan dari tugas 1 kemarin dengan ditambahkan beberapa hal sebagai berikut:
+Tugas ini merupakan lanjutan dari **PBKK Tugas 1** dengan beberapa perbaikan dan penambahan fitur.
 
-## Perbaikan Routing
+### 1. Perbaikan Routing
 
-Jadi routing di week 2 ini banyak yang diperbaiki, bisa dilihat di `web.php` dimana dirapihkan untuk page /agent/{tema?} (yang menampilkan penjelasan General Assistant Manager) dan /agent/fp yang redirect ke penjelasan final project.
+Routing pada Week 2 diperbaiki dan dirapikan di `web.php`.
 
-Selain itu, dibuat juga untuk pengelompokan dengan prefix dashboard yang bisa ke /about/ (profil departemen) atau ke /mahasiswa/{nrp} yang mengarah ke profil mahasiswa. Ini dilengkap dengan regex sebagai pemenuhan `challenge 1`. Ini juga dilengkap dengan fallback dan page error 404 sebagai pemenuhan `challenge 3`
+Beberapa perubahan yang dilakukan:
 
-Terakhir, tugas ini mengganti  yang awalnya kalkulator biasa menjadi kalkulator IP.
+* `/agent/{tema?}` digunakan untuk menampilkan penjelasan mengenai **General Assistant Manager**.
+* `/agent/fp` digunakan untuk menampilkan penjelasan mengenai **Final Project**.
+* Routing dashboard dikelompokkan menggunakan prefix `/dashboard`.
+* `/dashboard/about` digunakan untuk menampilkan profil departemen.
+* `/dashboard/mahasiswa/{nrp}` digunakan untuk menampilkan profil mahasiswa berdasarkan NRP.
+* Route mahasiswa dilengkapi dengan **regex constraint** untuk memenuhi **Challenge 1**.
+* Ditambahkan **fallback route** dan halaman error **404** untuk memenuhi **Challenge 3**.
+* Kalkulator pada tugas sebelumnya diubah dari kalkulator aritmatika menjadi **kalkulator IP**.
 
-Berikut beberapa screenshot:
+### 2. Screenshot
 
-- Screeshot /home/ yang baru
+#### Halaman `/home`
 
-- Screenshot
+<img width="1917" height="965" alt="Screenshot 2026-09-13 222638" src="https://github.com/user-attachments/assets/768d894d-a1ff-45d1-9584-9ad1b4daabc8" />
+
+#### Halaman `/agent`
+
+<img width="1917" height="977" alt="Screenshot 2026-09-13 222715" src="https://github.com/user-attachments/assets/614e352c-058d-4518-bcf2-12dc586081fa" />
+
+#### Halaman `/agent/fp` (diarahkan ke penjelasan final project)
+
+<img width="1917" height="967" alt="Screenshot 2026-09-13 222752" src="https://github.com/user-attachments/assets/77774066-c0e3-4c2f-a13d-3f6a4dc8849e" />
+
+#### Halaman `/dashboard/mahasiswa/{nrp}`
+
+<img width="1917" height="967" alt="Screenshot 2026-09-13 222536" src="https://github.com/user-attachments/assets/e733f727-865b-4923-a734-993867627ac4" />
+
+#### Halaman Error 404
+
+
+#### Kalkulator IP
+
+<img width="1917" height="970" alt="Screenshot 2026-09-13 222618" src="https://github.com/user-attachments/assets/4459c4f8-e83f-4db3-bf4f-edd7e361670f" />
+
+
+
+![Screenshot Kalkulator IP](screenshots/kalkulator-ip.png)
